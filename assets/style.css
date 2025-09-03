@@ -26,6 +26,9 @@ body{
   align-items :center;
 }
 .intro{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
   gap:10px;
 }
 .intro img{
@@ -35,6 +38,7 @@ body{
 }
 .location img{
   width:30px;
+  border:none;
 }
 .nav{
   text-align:left;
@@ -44,6 +48,8 @@ body{
   text-decoration:none;
 }
 .contact{
+  display:flex;
+  margin-top:auto;
   gap:20px;
 }
 .contact img{
