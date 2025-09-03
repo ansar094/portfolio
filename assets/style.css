@@ -13,15 +13,32 @@ body{
   color:white;
   font-family:"Montserrat", sans-serif;
 }
-navbar{
+.navbar{
   position:fixed;
   top:0
   left:0
   width:25%
   display:flex;
   display-direction:columns;
-  padding:20px;
+  padding:25px;
   align-items:center;
 }
-  
+.intro{
+  gap:10px;
+}
+.intro img{
+  border:2px solid #14203b;
+  width:50px;
+}
+.nav{
+  align-items:left;
+}
+.contact{
+  gap:20px;
+}
+.contact img{
+  width:20p;
+}
+
+
 
