@@ -111,5 +111,16 @@ margin-top:50px;
 .about p{
 	line-height:1.8;
 }
-
-
+.skills{
+	padding:50px 20px 0px 0px;
+}
+.skills ul{
+	list-style-type:circle;
+	padding-left:20px;
+}
+.skills li{
+	line-height:2.5;
+}
+li::marker{
+	color:white;
+}
