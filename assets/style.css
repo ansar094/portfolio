@@ -32,7 +32,6 @@ body{
   align-items:center;
   justify-content:center;
   gap:10px;
-align-items:center;
   
 }
 .intro .name{
@@ -99,20 +98,22 @@ margin-top:50px;
   flex-direction: row;
   align-items:center;
   justify-content:center;
-  gap:10px;
-  align-items:center;
 }
 .contact img{
   width:30px;
 }
 .about{
 	padding:100px 20px 0px 0px;
+	font-weight:500;
+	color:#f2eded;
 }
 .about p{
 	line-height:1.8;
 }
 .skills{
 	padding:50px 20px 0px 0px;
+	font-weight:500;
+	color:#f2eded;
 }
 .skills ul{
 	list-style-type:circle;
@@ -123,4 +124,5 @@ margin-top:50px;
 }
 li::marker{
 	color:white;
+	
 }
