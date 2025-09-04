@@ -12,9 +12,20 @@ body{
   background-color:#0e172b;
   color:white;
   font-family:"Montserrat", sans-serif;
-  margin-left:30%
+  margin-left:25%
   
 }
+.faded-line{
+	height:2px;
+	width:60%;
+	margin:40px auto;
+	background: linear-gradient(
+	to right,
+	transparent,
+	white,
+	transparent);
+		
+		}
 .navbar{
   position:fixed;
   top:0;
@@ -125,4 +136,34 @@ margin-top:50px;
 li::marker{
 	color:white;
 	
+}
+.work{
+	padding:100px 20px 20px 0px;
+
+}
+.work h2{
+	font-size:30px;
+}
+.job{
+	color:#f2eded;
+	padding-top:50px;
+	line-height:1.5;
+}
+.role{
+	font-size:20px;
+    font-weight:bold;
+}
+.company{
+	font-size:20px;
+    font-weight:bold;
+}
+.duration{
+		font-size:20px;
+    font-weight:bold;
+}
+.job ul{
+	line-height:1.8;
+	padding-left:20px;
+	padding-top:20px;
+	font-weight:500;
 }
