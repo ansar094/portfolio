@@ -198,6 +198,12 @@ li::marker{
 }
 .copyright{
 	padding:20px;
+	display:flex;
 	justify-content:center;
 	text-align: center;
+	
+}
+.copyright p{
+	font-weight:400;
+	font-size:15px;
 }
