@@ -3,11 +3,17 @@ if ("scrollRestoration" in history) {
   history.scrollRestoration = "manual";
 }
 
+window.addEventListener("beforeunload", () => {
+  // Always reset scroll before leaving
+  window.scrollTo(0, 0);
+});
+
 window.addEventListener("load", () => {
-  // Remove hash from URL without reloading
+  // Remove hash if present
   if (window.location.hash) {
     history.replaceState(null, null, window.location.pathname);
   }
+  // Force scroll to top
   window.scrollTo(0, 0);
 });
 
