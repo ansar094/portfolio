@@ -80,6 +80,56 @@ body{
 .intro button:hover {
   background-color: #0d2557;
 }
+.intro-mobile{
+	padding-top:30px;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  
+}
+.intro-mobile .name{
+  text-align:center;
+  font-size:20px;
+  font-weight:bold;
+}
+.intro-mobile p{
+  text-align:center;
+  font-size:15px;
+  font-weight:400;
+}
+.intro-mobile img{
+  border:3px solid #14203b;
+  width:100px;
+  border-radius:50%;
+}
+.intro-mobile button{
+	background-color:#0c1f47;
+	color:#17a3b3;
+	font-size:20px;
+	border:none;
+	border-radius:10px;
+	padding:10px;
+	cursor:pointer;
+	
+}
+.intro-mobile button:hover {
+  background-color: #0d2557;
+}
+@media (min-width:768px){
+	.intro-mobile{
+		display:none;
+	}
+}
+@media (max-width:768px){
+	body{
+		margin:30px;
+	}
+	.navbar{
+		display:none
+	}
+}
 
 .location{
   gap:10px;
