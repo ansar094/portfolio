@@ -124,9 +124,7 @@ body{
 	.contact-mobile{
 		display:none;
 	}
-	.nav-mobile{
-		display:none;
-	}
+
 }
 @media (max-width:768px){
 	body{
@@ -135,11 +133,7 @@ body{
 	.navbar{
 		display:none
 	}
-	.nav-mobile{
-		position:fixed;
-		top:0;
-		height:auto;
-	}
+
 		
 }
 
