@@ -179,7 +179,7 @@ li::marker{
 	font-weight:500;
 }
 .education{
-	padding:20px 20px 20px 0px;
+	padding:20px 20px 200px 0px;
 	
 }
 .education h2{
@@ -195,4 +195,9 @@ li::marker{
 .board{
 	font-size:15px;
     font-weight:500;
+}
+.copyright{
+	padding:60px;
+	justify-content:center;
+	text-align: center;
 }
