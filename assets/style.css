@@ -117,6 +117,18 @@ body{
 .intro-mobile button:hover {
   background-color: #0d2557;
 }
+.contact-mobile{
+
+  display:flex;
+  margin-top:auto;
+  gap:20px;
+  flex-direction: row;
+  align-items:center;
+  justify-content:center;
+}
+.contact-mobile img{
+  width:30px;
+}
 @media (min-width:768px){
 	.intro-mobile{
 		display:none;
@@ -179,18 +191,7 @@ margin-top:50px;
 .contact img{
   width:30px;
 }
-.contact-mobile{
 
-  display:flex;
-  margin-top:auto;
-  gap:20px;
-  flex-direction: row;
-  align-items:center;
-  justify-content:center;
-}
-.contact-mobile img{
-  width:30px;
-}
 .about{
 	padding:100px 20px 0px 0px;
 	font-weight:500;
