@@ -121,6 +121,12 @@ body{
 	.intro-mobile{
 		display:none;
 	}
+	.contact-mobile{
+		display:none;
+	}
+	.nav-mobile{
+		display:none;
+	}
 }
 @media (max-width:768px){
 	body{
@@ -129,6 +135,12 @@ body{
 	.navbar{
 		display:none
 	}
+	.nav-mobile{
+		position:fixed;
+		top:0;
+		height:auto;
+	}
+		
 }
 
 .location{
@@ -171,6 +183,18 @@ margin-top:50px;
   justify-content:center;
 }
 .contact img{
+  width:30px;
+}
+.contact-mobile{
+
+  display:flex;
+  margin-top:auto;
+  gap:20px;
+  flex-direction: row;
+  align-items:center;
+  justify-content:center;
+}
+.contact-mobile img{
   width:30px;
 }
 .about{
