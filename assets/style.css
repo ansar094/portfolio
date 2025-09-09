@@ -225,7 +225,7 @@ li::marker{
 	font-weight:bold;
 }
 .job{
-	color:#f2eded;
+	color:#ffffff;
 	padding-top:50px;
 	line-height:1.5;
 }
@@ -238,10 +238,11 @@ li::marker{
     font-weight:bold;
 }
 .duration{
-		font-size:17px;
+	font-size:17px;
     font-weight:bold;
 }
 .job ul{
+	color:#f2eded;
 	line-height:1.8;
 	padding-left:20px;
 	padding-top:20px;
@@ -258,10 +259,12 @@ li::marker{
 }
 	
 .course{
+	color:#f2eded;
 	font-size:17px;
     font-weight:600;
 }
 .board{
+	color:#f2eded;
 	font-size:15px;
     font-weight:500;
 }
